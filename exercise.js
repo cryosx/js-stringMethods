@@ -33,7 +33,8 @@ console.log(fifthLetter);
 /*3. Declare a variable named `worldLocator` and find the index (position) of the word "world" in the string below. Console.log your result.*/
 
 var randomFact = "All pandas in the world are on loan from China.";
-
+var worldLocator = randomFact.indexOf("world");
+console.log(worldLocator);
 
 
 /*The slice() method extracts a part of a string and returns the extracted part into a new string. This method takes 2 parameters: the starting index (position) and the ending index (position)*/
