@@ -24,6 +24,8 @@ console.log(longestPlaceName + " is the longest place name in the world and has 
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
 
+var fifthLetter = iDidntKnow.charAt(4);
+console.log(fifthLetter);
 
 
 /*The indexOf() method returns the index (position) of the first occurence of a specified text in a string.*/
